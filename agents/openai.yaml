@@ -1,0 +1,5 @@
+interface:
+  display_name: "月明·公众号写作"
+  short_description: "写作兼顾论证、通俗表达和宇航员品牌配图的公众号长文"
+  brand_color: "#39EC88"
+  default_prompt: "使用 $moonlit-wechat-article 写一篇符合月明水清深品牌规范的公众号文章。"
