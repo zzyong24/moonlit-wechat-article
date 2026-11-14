@@ -1,0 +1,20 @@
+[
+ {
+  "skill": "moonlit-wechat-article",
+  "query": "帮我把这段口述写成一篇公众号长文",
+  "should_trigger": true,
+  "expected": "保留原意和文风写公众号文章"
+ },
+ {
+  "skill": "moonlit-wechat-article",
+  "query": "改一下这篇公众号稿，去 AI 味",
+  "should_trigger": true,
+  "expected": "按编辑合同改稿"
+ },
+ {
+  "skill": "moonlit-wechat-article",
+  "query": "把公众号文章上传到草稿箱",
+  "should_trigger": false,
+  "expected": "路由到 moonlit-wechat-publisher B 段（需逐篇批准）"
+ }
+]
